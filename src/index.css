@@ -1,0 +1,40 @@
+.card{
+  /* Set border with light gray color */
+  border: 1px solid hsl(0, 0%, 83%);
+  /* Add rounded corners to the card */
+  border-radius: 10px;
+  /* Create a subtle shadow effect */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  /* Add padding for content spacing */
+  padding: 20px;
+  /* Set margin for card spacing */
+  margin: 10px;
+  /* Center align the text */
+  text-align: center;
+  /* Limit the card's maximum width */
+  max-width: 250px;
+  /* Display cards inline with each other */
+  display: inline-block;
+}
+
+.card .card-img{
+  /* Set maximum image width */
+  max-width: 60%;
+  /* Maintain aspect ratio */
+  height: auto;
+  /* Create circular image shape */
+  border-radius: 50%;
+  /* Add space below image */
+  margin-bottom: 10px;
+} 
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
