@@ -1,0 +1,16 @@
+.button{
+    /* Set background color in HSL format */
+    background-color: hsl(200, 100%, 50%);
+    /* Set text color to white */
+    color: white;
+    /* Add padding to button */
+    padding: 10px 20px;
+    /* Set border radius for rounded corners */
+    border-radius: 5px;
+    /* Duplicate border radius declaration */
+    border-radius: 5px;
+    /* Remove default border */
+    border: none;
+    /* Change cursor to pointer */
+    cursor: pointer;
+  }
