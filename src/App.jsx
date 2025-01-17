@@ -1,4 +1,6 @@
-import Card from './Card.jsx';
+import Student from './Student.jsx'
+
+
 
 
 
@@ -7,9 +9,7 @@ function App() {
 
   return (
     <>
-    <Card/>
-    <Card/>
-    <Card/>
+    <Student name="amine" age={23} isStudent = {true}/>
     </>
       
     
